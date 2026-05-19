@@ -3,7 +3,7 @@
 Otelpeek is an easy-to-use and extremely lightweight command-line tool designed to inspect OpenTelemetry data on any device, including edge devices, or to temporarily monitor your local telemetry data.
 
 ### Why Otelpeek?
-In production or development environments, we often just need to temporarily inspect or verify OpenTelemetry data. For instance, after implementing OpenTelemetry metrics or traces in an application, you might want to quickly check if the telemetry is being exported successfully or get a rough overview of the data payload.
+In production or development environments, we sometimes just need to temporarily inspect or verify OpenTelemetry data. For instance, after implementing OpenTelemetry metrics or traces in an application, you might want to quickly check if the telemetry is being exported successfully or get a rough overview of the data payload.
 
 In such scenarios, setting up a full-blown standard observability backend (like Jaeger, Prometheus, or an Elastic stack) can feel complete overkill. For edge devices with constrained resources, otelpeek offers a much lighter and more efficient alternative for telemetry inspection.
 
