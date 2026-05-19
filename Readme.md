@@ -37,7 +37,7 @@ This starts an HTTP server listening on `127.0.0.1:4318` with the following OTLP
 | `/v1/metrics`  | OTLP metric ingestion  |
 | `/v1/logs`     | OTLP log ingestion     |
 
-otelpeek accepts both `application/json` and `application/x-protobuf` content types.
+otelpeek accepts both `http/json` and `http/protobuf` content types.
 
 ### Preview
 ![截屏2026-05-18 14.30.43](assets/%E6%88%AA%E5%B1%8F2026-05-18%2014.30.43.png)
